@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "exclude": ["dist", "@types", "coverage", "*.local.*", "*.local"],
+  "include": ["src"],
+  "compilerOptions": {
+    "composite": true,
+    "module": "NodeNext",
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "noEmit": true
+  }
+}
